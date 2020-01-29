@@ -1,0 +1,850 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+                              build/Robot/production/_ext/1571480567/startup_xc32.o (__pic32c_data_initialization)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o (exit)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o (__libc_init_array)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+                              build/Robot/production/_ext/1890214425/plib_efc.o (memcpy)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o (memset)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+                              c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Microchip PIC32 Memory-Usage Report
+
+ROM Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.vectors                  0x400000          0x168         360   
+.text                     0x400168           0x24          36  App's exec code 
+.dinit                    0x40018c          0x460        1120   
+.text.Reset_Handler       0x4005ec          0x18c         396   
+.text.PIO_Initialize      0x400778           0xd4         212   
+.text.__register_exitpr   0x40084c           0xa4         164   
+.text.__pic32c_data_ini   0x4008f0           0x94         148   
+.text                     0x400984           0x6c         108  App's exec code 
+.text.CLOCK_Initialize    0x4009f0           0x60          96   
+.text.__libc_init_array   0x400a50           0x50          80   
+.text.__libc_fini_array   0x400aa0           0x34          52   
+.text.SYS_Initialize      0x400ad4           0x28          40   
+.text.NVIC_Initialize     0x400afc           0x24          36   
+.text.BSP_Initialize      0x400b20           0x20          32   
+.text.register_fini       0x400b40           0x14          20   
+.text.EFC_Initialize      0x400b54           0x10          16   
+.text.atexit              0x400b64            0xc          12   
+.text.main                0x400b70            0xa          10   
+.text.Dummy_Handler       0x400b7a            0x2           2   
+.rodata._global_impure_   0x400b7c            0x4           4   
+.text.NonMaskableInt_Ha   0x400b80            0x2           2   
+.text.HardFault_Handler   0x400b82            0x2           2   
+.text.DebugMonitor_Hand   0x400b84            0x2           2   
+.text.MemoryManagement_   0x400b86            0x2           2   
+.text.BusFault_Handler    0x400b88            0x2           2   
+.text.UsageFault_Handle   0x400b8a            0x2           2   
+      Total ROM used  :       0xb8c        2956  0.1% of 0x200000
+        --------------------------------------------------------------------------
+         Total Program Memory used  :       0xb8c        2956  0.1% of 0x200000
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.data.impure_data       0x20400000          0x428        1064   
+.bss                    0x20400428           0x1c          28  Uninitialized data 
+.bss.cmd.9214           0x20400444            0x4           4   
+         Total RAM used  :       0x448        1096  0.3% of 0x60000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :       0x448        1096  0.3% of 0x60000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x20400450          0x200         512  Reserved for heap 
+stack                   0x20400668        0x5f990      391568  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+ .text          0x00000000       0x74 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .debug_line    0x00000000       0xc5 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .debug_info    0x00000000      0x10f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .debug_abbrev  0x00000000       0x14 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .debug_aranges
+                0x00000000       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1360937237/main.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1571480567/initialization.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1571480567/initialization.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1571480567/initialization.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1571480567/interrupts.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1571480567/interrupts.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1571480567/interrupts.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1571480567/exceptions.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1571480567/exceptions.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1571480567/exceptions.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .text._mon_getc
+                0x00000000        0x4 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .text._mon_putc
+                0x00000000        0x2 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_info    0x00000000      0x237 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_abbrev  0x00000000       0x75 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_loc     0x00000000       0x21 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_aranges
+                0x00000000       0x28 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_ranges  0x00000000       0x18 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_line    0x00000000       0x68 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_str     0x00000000        0x0 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .comment       0x00000000       0x3d build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .debug_frame   0x00000000       0x30 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .ARM.attributes
+                0x00000000       0x37 build/Robot/production/_ext/2107007601/xc32_monitor.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1890216153/plib_clk.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1890216153/plib_clk.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1890216153/plib_clk.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1890203749/plib_pio.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1890203749/plib_pio.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortRead
+                0x00000000        0x4 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortWrite
+                0x00000000        0xc build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortLatchRead
+                0x00000000        0x4 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortSet
+                0x00000000        0x4 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortClear
+                0x00000000        0x4 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortToggle
+                0x00000000        0x8 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortInputEnable
+                0x00000000        0x4 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text.PIO_PortOutputEnable
+                0x00000000        0x4 build/Robot/production/_ext/1890203749/plib_pio.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .text._exit    0x00000000        0x2 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .debug_info    0x00000000      0xe50 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .debug_abbrev  0x00000000      0x1a8 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .debug_aranges
+                0x00000000       0x20 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .debug_ranges  0x00000000       0x10 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .debug_line    0x00000000      0x1e5 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .debug_str     0x00000000        0xe build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .comment       0x00000000       0x3d build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .debug_frame   0x00000000       0x20 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .ARM.attributes
+                0x00000000       0x37 build/Robot/production/_ext/1571480567/libc_syscalls.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/1890214425/plib_efc.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/1890214425/plib_efc.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_Read
+                0x00000000       0x10 build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_SectorErase
+                0x00000000       0x34 build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_PageWrite
+                0x00000000       0x58 build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_QuadWordWrite
+                0x00000000       0x48 build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_RegionLock
+                0x00000000       0x2c build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_RegionUnlock
+                0x00000000       0x2c build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_IsBusy
+                0x00000000       0x20 build/Robot/production/_ext/1890214425/plib_efc.o
+ .text.EFC_ErrorGet
+                0x00000000       0x18 build/Robot/production/_ext/1890214425/plib_efc.o
+ .bss.status    0x00000000        0x4 build/Robot/production/_ext/1890214425/plib_efc.o
+ .text          0x00000000        0x0 build/Robot/production/_ext/87092263/bsp.o
+ .data          0x00000000        0x0 build/Robot/production/_ext/87092263/bsp.o
+ .bss           0x00000000        0x0 build/Robot/production/_ext/87092263/bsp.o
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_info    0x00000000      0xeaa c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000      0x1e9 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_loc     0x00000000       0x3e c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000000       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_ranges  0x00000000       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_line    0x00000000      0x23c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_str     0x00000000       0x1f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .text          0x00000000      0x134 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .debug_line    0x00000000       0xfb c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000      0x129 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000000       0x14 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000000       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x9c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_info    0x00000000     0x15e9 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000      0x1b7 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_loc     0x00000000      0x1f5 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_ranges  0x00000000       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_line    0x00000000      0x300 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_str     0x00000000      0x119 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .comment       0x00000000       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x34 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xd4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+ .jcr           0x00000000        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+ .comment       0x00000000       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00400000         0x00200000         xr
+ram              0x20400000         0x00060000         xrw
+itcm             0x00000000         0x00000000         xrw
+dtcm             0x20000000         0x00000000         xrw
+*default*        0x00000000         0xffffffff
+tcm              0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
+LOAD build/Robot/production/_ext/1360937237/main.o
+LOAD build/Robot/production/_ext/1571480567/initialization.o
+LOAD build/Robot/production/_ext/1571480567/interrupts.o
+LOAD build/Robot/production/_ext/1571480567/exceptions.o
+LOAD build/Robot/production/_ext/2107007601/xc32_monitor.o
+LOAD build/Robot/production/_ext/1890216153/plib_clk.o
+LOAD build/Robot/production/_ext/1890203749/plib_pio.o
+LOAD build/Robot/production/_ext/1533178749/plib_nvic.o
+LOAD build/Robot/production/_ext/1571480567/startup_xc32.o
+LOAD build/Robot/production/_ext/1571480567/libc_syscalls.o
+LOAD build/Robot/production/_ext/1890214425/plib_efc.o
+LOAD build/Robot/production/_ext/87092263/bsp.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00000200                _min_heap_size = 0x200
+START GROUP
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard\libgcc.a
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libm.a
+END GROUP
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtend.o
+LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtn.o
+
+.vectors        0x00400000      0x168
+                0x00400000                . = ALIGN (0x4)
+                0x00400000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x00400000      0x168 build/Robot/production/_ext/1571480567/interrupts.o
+                0x00400000                exception_table
+
+.text           0x00400168       0x24
+                0x00400168                . = ALIGN (0x4)
+ *(.glue_7t)
+ .glue_7t       0x00400168        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00400168        0x0 linker stubs
+ *(.gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00400168                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00400168        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
+                0x00400168                _init
+ .init          0x0040016c        0x8 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtn.o
+                0x00400174                . = ALIGN (0x4)
+                0x00400174                __preinit_array_start = .
+ *(.preinit_array)
+                0x00400174                __preinit_array_end = .
+                0x00400174                . = ALIGN (0x4)
+                0x00400174                __init_array_start = .
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x00400174        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0x00400178        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+                0x0040017c                __init_array_end = .
+                0x0040017c                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x0040017c                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x0040017c        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
+                0x0040017c                _fini
+ .fini          0x00400180        0x8 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtn.o
+                0x00400188                . = ALIGN (0x4)
+                0x00400188                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00400188        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x0040018c                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x0040018c                . = ALIGN (0x4)
+                0x0040018c                _efixed = .
+                [!provide]                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                PROVIDE (__exidx_end, .)
+                0x0040018c                . = ALIGN (0x4)
+                0x0040018c                _etext = .
+
+.bss            0x20400000        0x0
+                0x20400000                . = ALIGN (0x4)
+                0x20400000                __bss_start__ = .
+                0x20400000                _sbss = .
+                0x20400000                _szero = .
+ *(COMMON)
+                0x20400000                . = ALIGN (0x4)
+                0x20400000                __bss_end__ = .
+                0x20400000                _ebss = .
+                0x20400000                _ezero = .
+                0x20400000                . = ALIGN (0x4)
+                0x20400000                _end = .
+                0x2045ffff                _ram_end_ = ((ORIGIN (ram) + LENGTH (ram)) - 0x1)
+OUTPUT(dist/Robot/production/Autonomous_Robot.X.production.elf elf32-littlearm)
+LOAD stack
+LOAD data_init
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
+ .ARM.attributes
+                0x00000020       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+ .ARM.attributes
+                0x00000052       0x37 build/Robot/production/_ext/1360937237/main.o
+ .ARM.attributes
+                0x00000089       0x37 build/Robot/production/_ext/1571480567/initialization.o
+ .ARM.attributes
+                0x000000c0       0x37 build/Robot/production/_ext/1571480567/interrupts.o
+ .ARM.attributes
+                0x000000f7       0x37 build/Robot/production/_ext/1571480567/exceptions.o
+ .ARM.attributes
+                0x0000012e       0x37 build/Robot/production/_ext/1890216153/plib_clk.o
+ .ARM.attributes
+                0x00000165       0x37 build/Robot/production/_ext/1890203749/plib_pio.o
+ .ARM.attributes
+                0x0000019c       0x37 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .ARM.attributes
+                0x000001d3       0x37 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .ARM.attributes
+                0x0000020a       0x37 build/Robot/production/_ext/1890214425/plib_efc.o
+ .ARM.attributes
+                0x00000241       0x37 build/Robot/production/_ext/87092263/bsp.o
+ .ARM.attributes
+                0x00000278       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .ARM.attributes
+                0x000002aa       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000002dc       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000030e       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000340       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000372       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000003a4       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000003d6       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtn.o
+
+.comment        0x00000000       0x3c
+ .comment       0x00000000       0x3c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+                                 0x3d (size before relaxing)
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1360937237/main.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1571480567/initialization.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1571480567/interrupts.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1571480567/exceptions.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1890216153/plib_clk.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1890203749/plib_pio.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1533178749/plib_nvic.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1571480567/startup_xc32.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/1890214425/plib_efc.o
+ .comment       0x0000003c       0x3d build/Robot/production/_ext/87092263/bsp.o
+ .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_info     0x00000000     0xe817
+ .debug_info    0x00000000      0xe19 build/Robot/production/_ext/1360937237/main.o
+ .debug_info    0x00000e19      0xf72 build/Robot/production/_ext/1571480567/initialization.o
+ .debug_info    0x00001d8b     0x1862 build/Robot/production/_ext/1571480567/interrupts.o
+ .debug_info    0x000035ed      0xed1 build/Robot/production/_ext/1571480567/exceptions.o
+ .debug_info    0x000044be      0x80b build/Robot/production/_ext/1890216153/plib_clk.o
+ .debug_info    0x00004cc9      0xe8e build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_info    0x00005b57      0x874 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_info    0x000063cb     0x180c build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_info    0x00007bd7     0x1274 build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_info    0x00008e4b     0x14d2 build/Robot/production/_ext/87092263/bsp.o
+ .debug_info    0x0000a31d      0x29f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_info    0x0000a5bc      0xdde c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .debug_info    0x0000b39a      0x40a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_info    0x0000b7a4      0xf5a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000c6fe      0xe6f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000d56d      0x3cf c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_info    0x0000d93c      0xedb c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_abbrev   0x00000000     0x1a33
+ .debug_abbrev  0x00000000      0x1c3 build/Robot/production/_ext/1360937237/main.o
+ .debug_abbrev  0x000001c3      0x1c4 build/Robot/production/_ext/1571480567/initialization.o
+ .debug_abbrev  0x00000387      0x1a7 build/Robot/production/_ext/1571480567/interrupts.o
+ .debug_abbrev  0x0000052e      0x196 build/Robot/production/_ext/1571480567/exceptions.o
+ .debug_abbrev  0x000006c4       0xc0 build/Robot/production/_ext/1890216153/plib_clk.o
+ .debug_abbrev  0x00000784      0x160 build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_abbrev  0x000008e4      0x12f build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_abbrev  0x00000a13      0x2c6 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_abbrev  0x00000cd9      0x2b4 build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_abbrev  0x00000f8d      0x1a3 build/Robot/production/_ext/87092263/bsp.o
+ .debug_abbrev  0x00001130       0x2a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_abbrev  0x0000115a      0x176 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x000012d0       0xa3 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_abbrev  0x00001373      0x242 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x000015b5      0x1e6 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000179b       0xa6 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_abbrev  0x00001841      0x1f2 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_loc      0x00000000      0xa23
+ .debug_loc     0x00000000       0x20 build/Robot/production/_ext/1360937237/main.o
+ .debug_loc     0x00000020       0x41 build/Robot/production/_ext/1571480567/initialization.o
+ .debug_loc     0x00000061       0xb0 build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_loc     0x00000111       0x3d build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_loc     0x0000014e       0x6d build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_loc     0x000001bb      0x33e build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_loc     0x000004f9       0x14 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_loc     0x0000050d       0xce c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_loc     0x000005db      0x1dd c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x000007b8       0x2c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_loc     0x000007e4       0x88 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_loc     0x0000086c      0x1b7 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_aranges  0x00000000      0x2c8
+ .debug_aranges
+                0x00000000       0x20 build/Robot/production/_ext/1360937237/main.o
+ .debug_aranges
+                0x00000020       0x20 build/Robot/production/_ext/1571480567/initialization.o
+ .debug_aranges
+                0x00000040       0x20 build/Robot/production/_ext/1571480567/interrupts.o
+ .debug_aranges
+                0x00000060       0x48 build/Robot/production/_ext/1571480567/exceptions.o
+ .debug_aranges
+                0x000000a8       0x20 build/Robot/production/_ext/1890216153/plib_clk.o
+ .debug_aranges
+                0x000000c8       0x60 build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_aranges
+                0x00000128       0x20 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_aranges
+                0x00000148       0x20 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_aranges
+                0x00000168       0x60 build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_aranges
+                0x000001c8       0x20 build/Robot/production/_ext/87092263/bsp.o
+ .debug_aranges
+                0x000001e8       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_aranges
+                0x00000208       0x18 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000220       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_aranges
+                0x00000240       0x28 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000268       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000288       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_aranges
+                0x000002a8       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_ranges   0x00000000      0x1d0
+ .debug_ranges  0x00000000       0x10 build/Robot/production/_ext/1360937237/main.o
+ .debug_ranges  0x00000010       0x10 build/Robot/production/_ext/1571480567/initialization.o
+ .debug_ranges  0x00000020       0x10 build/Robot/production/_ext/1571480567/interrupts.o
+ .debug_ranges  0x00000030       0x38 build/Robot/production/_ext/1571480567/exceptions.o
+ .debug_ranges  0x00000068       0x10 build/Robot/production/_ext/1890216153/plib_clk.o
+ .debug_ranges  0x00000078       0x50 build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_ranges  0x000000c8       0x10 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_ranges  0x000000d8       0x10 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_ranges  0x000000e8       0x50 build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_ranges  0x00000138       0x10 build/Robot/production/_ext/87092263/bsp.o
+ .debug_ranges  0x00000148       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_ranges  0x00000158       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_ranges  0x00000168       0x38 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x000001a0       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x000001b0       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_ranges  0x000001c0       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_line     0x00000000     0x21cd
+ .debug_line    0x00000000      0x1f7 build/Robot/production/_ext/1360937237/main.o
+ .debug_line    0x000001f7      0x313 build/Robot/production/_ext/1571480567/initialization.o
+ .debug_line    0x0000050a      0x214 build/Robot/production/_ext/1571480567/interrupts.o
+ .debug_line    0x0000071e      0x234 build/Robot/production/_ext/1571480567/exceptions.o
+ .debug_line    0x00000952      0x175 build/Robot/production/_ext/1890216153/plib_clk.o
+ .debug_line    0x00000ac7      0x23a build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_line    0x00000d01      0x158 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_line    0x00000e59      0x2fe build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_line    0x00001157      0x2a5 build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_line    0x000013fc      0x216 build/Robot/production/_ext/87092263/bsp.o
+ .debug_line    0x00001612       0xe5 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_line    0x000016f7      0x196 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .debug_line    0x0000188d      0x120 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_line    0x000019ad      0x280 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x00001c2d      0x22b c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_line    0x00001e58      0x117 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_line    0x00001f6f      0x25e c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_str      0x00000000      0x1d0
+ .debug_str     0x00000000       0x1d build/Robot/production/_ext/1360937237/main.o
+ .debug_str     0x0000001d       0x5c build/Robot/production/_ext/1571480567/initialization.o
+ .debug_str     0x00000079        0xe build/Robot/production/_ext/1571480567/interrupts.o
+ .debug_str     0x00000087        0xe build/Robot/production/_ext/1571480567/exceptions.o
+ .debug_str     0x00000095        0x0 build/Robot/production/_ext/1890216153/plib_clk.o
+ .debug_str     0x00000095       0x46 build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_str     0x000000db        0x0 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_str     0x000000db       0x79 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_str     0x00000154       0x22 build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_str     0x00000176        0xe build/Robot/production/_ext/87092263/bsp.o
+ .debug_str     0x00000184        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_str     0x00000184        0xe c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .debug_str     0x00000192        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_str     0x00000192        0xe c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_str     0x000001a0       0x22 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_str     0x000001c2        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_str     0x000001c2        0xe c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_frame    0x00000000      0x410
+ .debug_frame   0x00000000       0x28 build/Robot/production/_ext/1360937237/main.o
+ .debug_frame   0x00000028       0x28 build/Robot/production/_ext/1571480567/initialization.o
+ .debug_frame   0x00000050       0x20 build/Robot/production/_ext/1571480567/interrupts.o
+ .debug_frame   0x00000070       0x70 build/Robot/production/_ext/1571480567/exceptions.o
+ .debug_frame   0x000000e0       0x20 build/Robot/production/_ext/1890216153/plib_clk.o
+ .debug_frame   0x00000100       0xac build/Robot/production/_ext/1890203749/plib_pio.o
+ .debug_frame   0x000001ac       0x20 build/Robot/production/_ext/1533178749/plib_nvic.o
+ .debug_frame   0x000001cc       0x30 build/Robot/production/_ext/1571480567/startup_xc32.o
+ .debug_frame   0x000001fc       0xc0 build/Robot/production/_ext/1890214425/plib_efc.o
+ .debug_frame   0x000002bc       0x20 build/Robot/production/_ext/87092263/bsp.o
+ .debug_frame   0x000002dc       0x30 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_frame   0x0000030c       0x2c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_frame   0x00000338       0x50 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000388       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_frame   0x000003a8       0x34 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_frame   0x000003dc       0x34 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.stack          0x20400668      0x100
+ .stack         0x20400668      0x100 stack
+
+.data.impure_data%1
+                0x20400000      0x428
+ .data.impure_data
+                0x20400000      0x428 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+
+.bss%2          0x20400428       0x1c
+ .bss           0x20400428       0x1c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+
+.bss.cmd.9214%3
+                0x20400444        0x4
+ .bss.cmd.9214  0x20400444        0x4 build/Robot/production/_ext/1571480567/startup_xc32.o
+
+.jcr%z1         0x00000000        0x0
+ .jcr           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+
+.eh_frame%z2    0x00000000        0x0
+ .eh_frame      0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+
+.config_D0000000%4
+                0xd0000000        0x4
+ .config_D0000000
+                0xd0000000        0x4 build/Robot/production/_ext/1571480567/initialization.o
+
+.dinit%5        0x0040018c      0x460
+ .dinit         0x0040018c      0x460 data_init
+
+.text.Reset_Handler%6
+                0x004005ec      0x18c
+ .text.Reset_Handler
+                0x004005ec      0x18c build/Robot/production/_ext/1571480567/startup_xc32.o
+                0x004005ec                Reset_Handler
+
+.text.PIO_Initialize%7
+                0x00400778       0xd4
+ .text.PIO_Initialize
+                0x00400778       0xd4 build/Robot/production/_ext/1890203749/plib_pio.o
+                0x00400778                PIO_Initialize
+
+.text.__register_exitproc%8
+                0x0040084c       0xa4
+ .text.__register_exitproc
+                0x0040084c       0xa4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+                0x0040084c                __register_exitproc
+
+.text.__pic32c_data_initialization%9
+                0x004008f0       0x94
+ .text.__pic32c_data_initialization
+                0x004008f0       0x94 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+                0x004008f0                __pic32c_data_initialization
+
+.text%10        0x00400984       0x6c
+ .text          0x00400984       0x6c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
+
+.text.CLOCK_Initialize%11
+                0x004009f0       0x60
+ .text.CLOCK_Initialize
+                0x004009f0       0x60 build/Robot/production/_ext/1890216153/plib_clk.o
+                0x004009f0                CLOCK_Initialize
+
+.text.__libc_init_array%12
+                0x00400a50       0x50
+ .text.__libc_init_array
+                0x00400a50       0x50 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+                0x00400a50                __libc_init_array
+
+.text.__libc_fini_array%13
+                0x00400aa0       0x34
+ .text.__libc_fini_array
+                0x00400aa0       0x34 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+                0x00400aa0                __libc_fini_array
+
+.text.SYS_Initialize%14
+                0x00400ad4       0x28
+ .text.SYS_Initialize
+                0x00400ad4       0x28 build/Robot/production/_ext/1571480567/initialization.o
+                0x00400ad4                SYS_Initialize
+
+.text.NVIC_Initialize%15
+                0x00400afc       0x24
+ .text.NVIC_Initialize
+                0x00400afc       0x24 build/Robot/production/_ext/1533178749/plib_nvic.o
+                0x00400afc                NVIC_Initialize
+
+.text.BSP_Initialize%16
+                0x00400b20       0x20
+ .text.BSP_Initialize
+                0x00400b20       0x20 build/Robot/production/_ext/87092263/bsp.o
+                0x00400b20                BSP_Initialize
+
+.text.register_fini%17
+                0x00400b40       0x14
+ .text.register_fini
+                0x00400b40       0x14 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+
+.text.EFC_Initialize%18
+                0x00400b54       0x10
+ .text.EFC_Initialize
+                0x00400b54       0x10 build/Robot/production/_ext/1890214425/plib_efc.o
+                0x00400b54                EFC_Initialize
+
+.text.atexit%19
+                0x00400b64        0xc
+ .text.atexit   0x00400b64        0xc c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+                0x00400b64                atexit
+
+.text.main%20   0x00400b70        0xa
+ .text.main     0x00400b70        0xa build/Robot/production/_ext/1360937237/main.o
+                0x00400b70                main
+
+.rodata._global_impure_ptr%21
+                0x00400b7c        0x4
+ .rodata._global_impure_ptr
+                0x00400b7c        0x4 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+                0x00400b7c                _global_impure_ptr
+
+.text.Dummy_Handler%22
+                0x00400b7a        0x2
+ .text.Dummy_Handler
+                0x00400b7a        0x2 build/Robot/production/_ext/1571480567/interrupts.o
+                0x00400b7a                DACC_Handler
+                0x00400b7a                SVCall_Handler
+                0x00400b7a                TC0_CH2_Handler
+                0x00400b7a                TC3_CH1_Handler
+                0x00400b7a                UART3_Handler
+                0x00400b7a                UART2_Handler
+                0x00400b7a                TRNG_Handler
+                0x00400b7a                SysTick_Handler
+                0x00400b7a                AFEC1_Handler
+                0x00400b7a                PendSV_Handler
+                0x00400b7a                TC0_CH1_Handler
+                0x00400b7a                QSPI_Handler
+                0x00400b7a                ISI_Handler
+                0x00400b7a                MCAN0_INT0_Handler
+                0x00400b7a                RSWDT_Handler
+                0x00400b7a                USART0_Handler
+                0x00400b7a                TC1_CH2_Handler
+                0x00400b7a                RTT_Handler
+                0x00400b7a                USBHS_Handler
+                0x00400b7a                IXC_Handler
+                0x00400b7a                CCF_Handler
+                0x00400b7a                PIOB_Handler
+                0x00400b7a                RTC_Handler
+                0x00400b7a                WDT_Handler
+                0x00400b7a                MCAN1_INT1_Handler
+                0x00400b7a                HSMCI_Handler
+                0x00400b7a                UART1_Handler
+                0x00400b7a                Dummy_Handler
+                0x00400b7a                TWIHS1_Handler
+                0x00400b7a                TC3_CH2_Handler
+                0x00400b7a                XDMAC_Handler
+                0x00400b7a                UART4_Handler
+                0x00400b7a                TC2_CH0_Handler
+                0x00400b7a                PWM1_Handler
+                0x00400b7a                USART1_Handler
+                0x00400b7a                PWM0_Handler
+                0x00400b7a                PIOA_Handler
+                0x00400b7a                AFEC0_Handler
+                0x00400b7a                CCW_Handler
+                0x00400b7a                TC3_CH0_Handler
+                0x00400b7a                SSC_Handler
+                0x00400b7a                TC1_CH0_Handler
+                0x00400b7a                ACC_Handler
+                0x00400b7a                PMC_Handler
+                0x00400b7a                GMAC_Handler
+                0x00400b7a                TC2_CH2_Handler
+                0x00400b7a                MCAN0_INT1_Handler
+                0x00400b7a                GMAC_Q5_Handler
+                0x00400b7a                SUPC_Handler
+                0x00400b7a                TC2_CH1_Handler
+                0x00400b7a                MCAN1_INT0_Handler
+                0x00400b7a                EFC_Handler
+                0x00400b7a                GMAC_Q1_Handler
+                0x00400b7a                USART2_Handler
+                0x00400b7a                SDRAMC_Handler
+                0x00400b7a                GMAC_Q2_Handler
+                0x00400b7a                PIOE_Handler
+                0x00400b7a                SPI1_Handler
+                0x00400b7a                TC1_CH1_Handler
+                0x00400b7a                GMAC_Q3_Handler
+                0x00400b7a                PIOD_Handler
+                0x00400b7a                TWIHS2_Handler
+                0x00400b7a                MLB_Handler
+                0x00400b7a                I2SC0_Handler
+                0x00400b7a                UART0_Handler
+                0x00400b7a                I2SC1_Handler
+                0x00400b7a                TC0_CH0_Handler
+                0x00400b7a                PIOC_Handler
+                0x00400b7a                GMAC_Q4_Handler
+                0x00400b7a                FPU_Handler
+                0x00400b7a                RSTC_Handler
+                0x00400b7a                ICM_Handler
+                0x00400b7a                AES_Handler
+                0x00400b7a                TWIHS0_Handler
+                0x00400b7a                SPI0_Handler
+
+.text.NonMaskableInt_Handler%23
+                0x00400b80        0x2
+ .text.NonMaskableInt_Handler
+                0x00400b80        0x2 build/Robot/production/_ext/1571480567/exceptions.o
+                0x00400b80                NonMaskableInt_Handler
+
+.text.HardFault_Handler%24
+                0x00400b82        0x2
+ .text.HardFault_Handler
+                0x00400b82        0x2 build/Robot/production/_ext/1571480567/exceptions.o
+                0x00400b82                HardFault_Handler
+
+.text.DebugMonitor_Handler%25
+                0x00400b84        0x2
+ .text.DebugMonitor_Handler
+                0x00400b84        0x2 build/Robot/production/_ext/1571480567/exceptions.o
+                0x00400b84                DebugMonitor_Handler
+
+.text.MemoryManagement_Handler%26
+                0x00400b86        0x2
+ .text.MemoryManagement_Handler
+                0x00400b86        0x2 build/Robot/production/_ext/1571480567/exceptions.o
+                0x00400b86                MemoryManagement_Handler
+
+.text.BusFault_Handler%27
+                0x00400b88        0x2
+ .text.BusFault_Handler
+                0x00400b88        0x2 build/Robot/production/_ext/1571480567/exceptions.o
+                0x00400b88                BusFault_Handler
+
+.text.UsageFault_Handler%28
+                0x00400b8a        0x2
+ .text.UsageFault_Handler
+                0x00400b8a        0x2 build/Robot/production/_ext/1571480567/exceptions.o
+                0x00400b8a                UsageFault_Handler
