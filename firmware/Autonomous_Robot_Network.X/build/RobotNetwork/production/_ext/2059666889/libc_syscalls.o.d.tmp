@@ -1,5 +1,5 @@
-build/RobotNetwork/production/_ext/75434429/plib_nvic.o:  \
- ../src/config/RobotNetwork/peripheral/nvic/plib_nvic.c  \
+build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o:  \
+ ../src/config/RobotNetwork/libc_syscalls.c  \
  ../src/packs/ATSAMV71Q21B_DFP/device.h  \
  ../src/packs/ATSAMV71Q21B_DFP/atsamv71q21b.h  \
  ../src/packs/CMSIS/CMSIS/Core/Include/core_cm7.h  \
@@ -46,6 +46,4 @@ build/RobotNetwork/production/_ext/75434429/plib_nvic.o:  \
  ../src/packs/ATSAMV71Q21B_DFP/component/xdmac.h  \
  ../src/packs/ATSAMV71Q21B_DFP/pio/samv71q21b.h  \
  ../src/config/RobotNetwork/device_cache.h  \
- ../src/config/RobotNetwork/toolchain_specifics.h  \
- ../src/config/RobotNetwork/peripheral/nvic/plib_nvic.h  \
-
+ ../src/config/RobotNetwork/toolchain_specifics.h 

@@ -37,8 +37,8 @@ section                    address  length [bytes]      (dec)  Description
 .text.CLOCK_Initialize    0x4009b4           0x60          96   
 .text.__libc_init_array   0x400a14           0x50          80   
 .text.__libc_fini_array   0x400a64           0x34          52   
-.text.SYS_Initialize      0x400a98           0x24          36   
-.text.NVIC_Initialize     0x400abc           0x24          36   
+.text.NVIC_Initialize     0x400a98           0x24          36   
+.text.SYS_Initialize      0x400abc           0x24          36   
 .text.register_fini       0x400ae0           0x14          20   
 .text.EFC_Initialize      0x400af4           0x10          16   
 .text.atexit              0x400b04            0xc          12   
@@ -95,80 +95,9 @@ Discarded input sections
                 0x00000000       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
  .ARM.attributes
                 0x00000000       0x1e c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/1360937237/main.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/1360937237/main.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/1360937237/main.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .text._mon_getc
-                0x00000000        0x4 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .text._mon_putc
-                0x00000000        0x2 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_info    0x00000000      0x24a build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_abbrev  0x00000000       0x75 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_loc     0x00000000       0x21 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_aranges
-                0x00000000       0x28 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_ranges  0x00000000       0x18 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_line    0x00000000       0x6f build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_str     0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .comment       0x00000000       0x3d build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .debug_frame   0x00000000       0x30 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
- .ARM.attributes
-                0x00000000       0x37 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
  .text          0x00000000        0x0 build/RobotNetwork/production/_ext/556611815/plib_clk.o
  .data          0x00000000        0x0 build/RobotNetwork/production/_ext/556611815/plib_clk.o
  .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/556611815/plib_clk.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortRead
-                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortWrite
-                0x00000000        0xc build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortLatchRead
-                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortSet
-                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortClear
-                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortToggle
-                0x00000000        0x8 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortInputEnable
-                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text.PIO_PortOutputEnable
-                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .text._exit    0x00000000        0x2 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .debug_info    0x00000000      0xe63 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .debug_abbrev  0x00000000      0x1a8 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .debug_aranges
-                0x00000000       0x20 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .debug_ranges  0x00000000       0x10 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .debug_line    0x00000000      0x1ec build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .debug_str     0x00000000        0xe build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .comment       0x00000000       0x3d build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .debug_frame   0x00000000       0x20 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
- .ARM.attributes
-                0x00000000       0x37 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
  .text          0x00000000        0x0 build/RobotNetwork/production/_ext/556613543/plib_efc.o
  .data          0x00000000        0x0 build/RobotNetwork/production/_ext/556613543/plib_efc.o
  .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/556613543/plib_efc.o
@@ -189,6 +118,77 @@ Discarded input sections
  .text.EFC_ErrorGet
                 0x00000000       0x18 build/RobotNetwork/production/_ext/556613543/plib_efc.o
  .bss.status    0x00000000        0x4 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortRead
+                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortWrite
+                0x00000000        0xc build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortLatchRead
+                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortSet
+                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortClear
+                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortToggle
+                0x00000000        0x8 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortInputEnable
+                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text.PIO_PortOutputEnable
+                0x00000000        0x4 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .text._mon_getc
+                0x00000000        0x4 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .text._mon_putc
+                0x00000000        0x2 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_info    0x00000000      0x246 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_abbrev  0x00000000       0x75 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_loc     0x00000000       0x21 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_aranges
+                0x00000000       0x28 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_ranges  0x00000000       0x18 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_line    0x00000000       0x6f build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_str     0x00000000        0x0 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .comment       0x00000000       0x3d build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .debug_frame   0x00000000       0x30 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .ARM.attributes
+                0x00000000       0x37 build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .text._exit    0x00000000        0x2 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .debug_info    0x00000000      0xe5f build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .debug_abbrev  0x00000000      0x1a8 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .debug_aranges
+                0x00000000       0x20 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .debug_ranges  0x00000000       0x10 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .debug_line    0x00000000      0x1ec build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .debug_str     0x00000000        0xe build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .comment       0x00000000       0x3d build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .debug_frame   0x00000000       0x20 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .ARM.attributes
+                0x00000000       0x37 build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
+ .text          0x00000000        0x0 build/RobotNetwork/production/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/RobotNetwork/production/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/RobotNetwork/production/_ext/1360937237/main.o
  .text          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .data          0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .bss           0x00000000        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
@@ -283,17 +283,17 @@ Linker script and memory map
 LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crti.o
 LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
 LOAD c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard/crt0.o
-LOAD build/RobotNetwork/production/_ext/1360937237/main.o
+LOAD build/RobotNetwork/production/_ext/556611815/plib_clk.o
+LOAD build/RobotNetwork/production/_ext/556613543/plib_efc.o
+LOAD build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+LOAD build/RobotNetwork/production/_ext/556624219/plib_pio.o
+LOAD build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
 LOAD build/RobotNetwork/production/_ext/2059666889/initialization.o
 LOAD build/RobotNetwork/production/_ext/2059666889/interrupts.o
 LOAD build/RobotNetwork/production/_ext/2059666889/exceptions.o
-LOAD build/RobotNetwork/production/_ext/150091599/xc32_monitor.o
-LOAD build/RobotNetwork/production/_ext/556611815/plib_clk.o
-LOAD build/RobotNetwork/production/_ext/556624219/plib_pio.o
-LOAD build/RobotNetwork/production/_ext/75434429/plib_nvic.o
 LOAD build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
 LOAD build/RobotNetwork/production/_ext/2059666889/libc_syscalls.o
-LOAD build/RobotNetwork/production/_ext/556613543/plib_efc.o
+LOAD build/RobotNetwork/production/_ext/1360937237/main.o
                 0x00000001                __MPLAB_BUILD = 0x1
                 0x00000200                _min_heap_size = 0x200
 START GROUP
@@ -391,23 +391,23 @@ LOAD data_init
  .ARM.attributes
                 0x00000020       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
  .ARM.attributes
-                0x00000052       0x37 build/RobotNetwork/production/_ext/1360937237/main.o
+                0x00000052       0x37 build/RobotNetwork/production/_ext/556611815/plib_clk.o
  .ARM.attributes
-                0x00000089       0x37 build/RobotNetwork/production/_ext/2059666889/initialization.o
+                0x00000089       0x37 build/RobotNetwork/production/_ext/556613543/plib_efc.o
  .ARM.attributes
-                0x000000c0       0x37 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+                0x000000c0       0x37 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
  .ARM.attributes
-                0x000000f7       0x37 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+                0x000000f7       0x37 build/RobotNetwork/production/_ext/556624219/plib_pio.o
  .ARM.attributes
-                0x0000012e       0x37 build/RobotNetwork/production/_ext/556611815/plib_clk.o
+                0x0000012e       0x37 build/RobotNetwork/production/_ext/2059666889/initialization.o
  .ARM.attributes
-                0x00000165       0x37 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+                0x00000165       0x37 build/RobotNetwork/production/_ext/2059666889/interrupts.o
  .ARM.attributes
-                0x0000019c       0x37 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+                0x0000019c       0x37 build/RobotNetwork/production/_ext/2059666889/exceptions.o
  .ARM.attributes
                 0x000001d3       0x37 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
  .ARM.attributes
-                0x0000020a       0x37 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+                0x0000020a       0x37 build/RobotNetwork/production/_ext/1360937237/main.o
  .ARM.attributes
                 0x00000241       0x32 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .ARM.attributes
@@ -428,15 +428,15 @@ LOAD data_init
 .comment        0x00000000       0x3c
  .comment       0x00000000       0x3c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/v7e-m/fpv5/hard/crtbegin.o
                                  0x3d (size before relaxing)
- .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/1360937237/main.o
+ .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/556624219/plib_pio.o
  .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/2059666889/initialization.o
  .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/2059666889/interrupts.o
  .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/556611815/plib_clk.o
- .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/75434429/plib_nvic.o
  .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .comment       0x0000003c       0x3d build/RobotNetwork/production/_ext/1360937237/main.o
  .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
  .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
@@ -445,34 +445,34 @@ LOAD data_init
  .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
  .comment       0x0000003c       0x3d c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
-.debug_info     0x00000000     0xa4bc
- .debug_info    0x00000000      0xe25 build/RobotNetwork/production/_ext/1360937237/main.o
- .debug_info    0x00000e25      0x443 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .debug_info    0x00001268      0xd49 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .debug_info    0x00001fb1      0x3b6 build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .debug_info    0x00002367      0x81e build/RobotNetwork/production/_ext/556611815/plib_clk.o
- .debug_info    0x00002b85      0xc3e build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .debug_info    0x000037c3      0x887 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .debug_info    0x0000404a      0xcf1 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .debug_info    0x00004d3b     0x1287 build/RobotNetwork/production/_ext/556613543/plib_efc.o
- .debug_info    0x00005fc2      0x29f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
- .debug_info    0x00006261      0xdde c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
- .debug_info    0x0000703f      0x40a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
- .debug_info    0x00007449      0xf5a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
- .debug_info    0x000083a3      0xe6f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
- .debug_info    0x00009212      0x3cf c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
- .debug_info    0x000095e1      0xedb c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+.debug_info     0x00000000     0xa498
+ .debug_info    0x00000000      0x81a build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .debug_info    0x0000081a     0x1283 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_info    0x00001a9d      0x883 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .debug_info    0x00002320      0xc3a build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .debug_info    0x00002f5a      0x43f build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .debug_info    0x00003399      0xd45 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .debug_info    0x000040de      0x3b2 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .debug_info    0x00004490      0xced build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .debug_info    0x0000517d      0xe21 build/RobotNetwork/production/_ext/1360937237/main.o
+ .debug_info    0x00005f9e      0x29f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_info    0x0000623d      0xdde c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
+ .debug_info    0x0000701b      0x40a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_info    0x00007425      0xf5a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000837f      0xe6f c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_info    0x000091ee      0x3cf c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_info    0x000095bd      0xedb c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
 .debug_abbrev   0x00000000     0x1482
- .debug_abbrev  0x00000000      0x1c3 build/RobotNetwork/production/_ext/1360937237/main.o
- .debug_abbrev  0x000001c3       0xb6 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .debug_abbrev  0x00000279       0xc8 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .debug_abbrev  0x00000341       0x5e build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .debug_abbrev  0x0000039f       0xc0 build/RobotNetwork/production/_ext/556611815/plib_clk.o
- .debug_abbrev  0x0000045f      0x144 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .debug_abbrev  0x000005a3      0x12f build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .debug_abbrev  0x000006d2      0x1f9 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .debug_abbrev  0x000008cb      0x2b4 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_abbrev  0x00000000       0xc0 build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .debug_abbrev  0x000000c0      0x2b4 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_abbrev  0x00000374      0x12f build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .debug_abbrev  0x000004a3      0x144 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .debug_abbrev  0x000005e7       0xb6 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .debug_abbrev  0x0000069d       0xc8 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .debug_abbrev  0x00000765       0x5e build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .debug_abbrev  0x000007c3      0x1f9 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .debug_abbrev  0x000009bc      0x1c3 build/RobotNetwork/production/_ext/1360937237/main.o
  .debug_abbrev  0x00000b7f       0x2a c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .debug_abbrev  0x00000ba9      0x176 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
  .debug_abbrev  0x00000d1f       0xa3 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
@@ -481,39 +481,25 @@ LOAD data_init
  .debug_abbrev  0x000011ea       0xa6 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
  .debug_abbrev  0x00001290      0x1f2 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
-.debug_loc      0x00000000      0x9f7
- .debug_loc     0x00000000       0x20 build/RobotNetwork/production/_ext/1360937237/main.o
- .debug_loc     0x00000020       0x41 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .debug_loc     0x00000061       0x84 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .debug_loc     0x000000e5       0x3d build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .debug_loc     0x00000122       0x6d build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .debug_loc     0x0000018f      0x33e build/RobotNetwork/production/_ext/556613543/plib_efc.o
- .debug_loc     0x000004cd       0x14 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
- .debug_loc     0x000004e1       0xce c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
- .debug_loc     0x000005af      0x1dd c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
- .debug_loc     0x0000078c       0x2c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
- .debug_loc     0x000007b8       0x88 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
- .debug_loc     0x00000840      0x1b7 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
-
 .debug_aranges  0x00000000      0x2a8
  .debug_aranges
-                0x00000000       0x20 build/RobotNetwork/production/_ext/1360937237/main.o
+                0x00000000       0x20 build/RobotNetwork/production/_ext/556611815/plib_clk.o
  .debug_aranges
-                0x00000020       0x20 build/RobotNetwork/production/_ext/2059666889/initialization.o
+                0x00000020       0x60 build/RobotNetwork/production/_ext/556613543/plib_efc.o
  .debug_aranges
-                0x00000040       0x20 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+                0x00000080       0x20 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
  .debug_aranges
-                0x00000060       0x48 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+                0x000000a0       0x60 build/RobotNetwork/production/_ext/556624219/plib_pio.o
  .debug_aranges
-                0x000000a8       0x20 build/RobotNetwork/production/_ext/556611815/plib_clk.o
+                0x00000100       0x20 build/RobotNetwork/production/_ext/2059666889/initialization.o
  .debug_aranges
-                0x000000c8       0x60 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+                0x00000120       0x20 build/RobotNetwork/production/_ext/2059666889/interrupts.o
  .debug_aranges
-                0x00000128       0x20 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+                0x00000140       0x48 build/RobotNetwork/production/_ext/2059666889/exceptions.o
  .debug_aranges
-                0x00000148       0x20 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+                0x00000188       0x20 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
  .debug_aranges
-                0x00000168       0x60 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+                0x000001a8       0x20 build/RobotNetwork/production/_ext/1360937237/main.o
  .debug_aranges
                 0x000001c8       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .debug_aranges
@@ -530,15 +516,15 @@ LOAD data_init
                 0x00000288       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
 .debug_ranges   0x00000000      0x1c0
- .debug_ranges  0x00000000       0x10 build/RobotNetwork/production/_ext/1360937237/main.o
- .debug_ranges  0x00000010       0x10 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .debug_ranges  0x00000020       0x10 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .debug_ranges  0x00000030       0x38 build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .debug_ranges  0x00000068       0x10 build/RobotNetwork/production/_ext/556611815/plib_clk.o
- .debug_ranges  0x00000078       0x50 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .debug_ranges  0x000000c8       0x10 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .debug_ranges  0x000000d8       0x10 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .debug_ranges  0x000000e8       0x50 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_ranges  0x00000000       0x10 build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .debug_ranges  0x00000010       0x50 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_ranges  0x00000060       0x10 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .debug_ranges  0x00000070       0x50 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .debug_ranges  0x000000c0       0x10 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .debug_ranges  0x000000d0       0x10 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .debug_ranges  0x000000e0       0x38 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .debug_ranges  0x00000118       0x10 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .debug_ranges  0x00000128       0x10 build/RobotNetwork/production/_ext/1360937237/main.o
  .debug_ranges  0x00000138       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .debug_ranges  0x00000148       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
  .debug_ranges  0x00000158       0x38 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
@@ -547,15 +533,15 @@ LOAD data_init
  .debug_ranges  0x000001b0       0x10 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
 .debug_line     0x00000000     0x1d27
- .debug_line    0x00000000      0x1fe build/RobotNetwork/production/_ext/1360937237/main.o
- .debug_line    0x000001fe      0x257 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .debug_line    0x00000455      0x15e build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .debug_line    0x000005b3      0x17e build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .debug_line    0x00000731      0x17c build/RobotNetwork/production/_ext/556611815/plib_clk.o
- .debug_line    0x000008ad      0x231 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .debug_line    0x00000ade      0x15f build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .debug_line    0x00000c3d      0x283 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .debug_line    0x00000ec0      0x2ac build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_line    0x00000000      0x17c build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .debug_line    0x0000017c      0x2ac build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_line    0x00000428      0x15f build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .debug_line    0x00000587      0x231 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .debug_line    0x000007b8      0x257 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .debug_line    0x00000a0f      0x15e build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .debug_line    0x00000b6d      0x17e build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .debug_line    0x00000ceb      0x283 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .debug_line    0x00000f6e      0x1fe build/RobotNetwork/production/_ext/1360937237/main.o
  .debug_line    0x0000116c       0xe5 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .debug_line    0x00001251      0x196 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
  .debug_line    0x000013e7      0x120 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
@@ -565,15 +551,15 @@ LOAD data_init
  .debug_line    0x00001ac9      0x25e c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
 .debug_str      0x00000000      0x13f
- .debug_str     0x00000000       0x1d build/RobotNetwork/production/_ext/1360937237/main.o
- .debug_str     0x0000001d       0x3f build/RobotNetwork/production/_ext/2059666889/initialization.o
- .debug_str     0x0000005c        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .debug_str     0x0000005c        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .debug_str     0x0000005c        0x0 build/RobotNetwork/production/_ext/556611815/plib_clk.o
- .debug_str     0x0000005c        0xa build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .debug_str     0x00000066        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .debug_str     0x00000066       0x6b build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .debug_str     0x000000d1       0x22 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_str     0x00000000        0x0 build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .debug_str     0x00000000       0x22 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_str     0x00000022        0x0 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .debug_str     0x00000022        0xa build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .debug_str     0x0000002c       0x3f build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .debug_str     0x0000006b        0x0 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .debug_str     0x0000006b        0x0 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .debug_str     0x0000006b       0x6b build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .debug_str     0x000000d6       0x1d build/RobotNetwork/production/_ext/1360937237/main.o
  .debug_str     0x000000f3        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .debug_str     0x000000f3        0xe c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-impure.o)
  .debug_str     0x00000101        0x0 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
@@ -583,21 +569,35 @@ LOAD data_init
  .debug_str     0x00000131        0xe c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
 .debug_frame    0x00000000      0x3e4
- .debug_frame   0x00000000       0x28 build/RobotNetwork/production/_ext/1360937237/main.o
- .debug_frame   0x00000028       0x28 build/RobotNetwork/production/_ext/2059666889/initialization.o
- .debug_frame   0x00000050       0x20 build/RobotNetwork/production/_ext/2059666889/interrupts.o
- .debug_frame   0x00000070       0x70 build/RobotNetwork/production/_ext/2059666889/exceptions.o
- .debug_frame   0x000000e0       0x20 build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .debug_frame   0x00000000       0x20 build/RobotNetwork/production/_ext/556611815/plib_clk.o
+ .debug_frame   0x00000020       0xc0 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_frame   0x000000e0       0x20 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
  .debug_frame   0x00000100       0xa0 build/RobotNetwork/production/_ext/556624219/plib_pio.o
- .debug_frame   0x000001a0       0x20 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
- .debug_frame   0x000001c0       0x30 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
- .debug_frame   0x000001f0       0xc0 build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_frame   0x000001a0       0x28 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .debug_frame   0x000001c8       0x20 build/RobotNetwork/production/_ext/2059666889/interrupts.o
+ .debug_frame   0x000001e8       0x70 build/RobotNetwork/production/_ext/2059666889/exceptions.o
+ .debug_frame   0x00000258       0x30 build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .debug_frame   0x00000288       0x28 build/RobotNetwork/production/_ext/1360937237/main.o
  .debug_frame   0x000002b0       0x30 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
  .debug_frame   0x000002e0       0x2c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
  .debug_frame   0x0000030c       0x50 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
  .debug_frame   0x0000035c       0x20 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
  .debug_frame   0x0000037c       0x34 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
  .debug_frame   0x000003b0       0x34 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
+
+.debug_loc      0x00000000      0x9f7
+ .debug_loc     0x00000000      0x33e build/RobotNetwork/production/_ext/556613543/plib_efc.o
+ .debug_loc     0x0000033e       0x3d build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+ .debug_loc     0x0000037b       0x84 build/RobotNetwork/production/_ext/556624219/plib_pio.o
+ .debug_loc     0x000003ff       0x41 build/RobotNetwork/production/_ext/2059666889/initialization.o
+ .debug_loc     0x00000440       0x6d build/RobotNetwork/production/_ext/2059666889/startup_xc32.o
+ .debug_loc     0x000004ad       0x20 build/RobotNetwork/production/_ext/1360937237/main.o
+ .debug_loc     0x000004cd       0x14 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libpic32c.a(data_init.o)
+ .debug_loc     0x000004e1       0xce c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-init.o)
+ .debug_loc     0x000005af      0x1dd c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000078c       0x2c c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-atexit.o)
+ .debug_loc     0x000007b8       0x88 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
+ .debug_loc     0x00000840      0x1b7 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-__atexit.o)
 
 .stack          0x20400668      0x100
  .stack         0x20400668      0x100 stack
@@ -673,17 +673,17 @@ LOAD data_init
                 0x00400a64       0x34 c:/program files (x86)/microchip/xc32/v2.10/bin/bin/../../lib/gcc/pic32c/6.2.1/../../../../pic32c/lib/v7e-m/fpv5/hard\libc.a(lib_a-fini.o)
                 0x00400a64                __libc_fini_array
 
-.text.SYS_Initialize%14
+.text.NVIC_Initialize%14
                 0x00400a98       0x24
- .text.SYS_Initialize
-                0x00400a98       0x24 build/RobotNetwork/production/_ext/2059666889/initialization.o
-                0x00400a98                SYS_Initialize
-
-.text.NVIC_Initialize%15
-                0x00400abc       0x24
  .text.NVIC_Initialize
-                0x00400abc       0x24 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
-                0x00400abc                NVIC_Initialize
+                0x00400a98       0x24 build/RobotNetwork/production/_ext/75434429/plib_nvic.o
+                0x00400a98                NVIC_Initialize
+
+.text.SYS_Initialize%15
+                0x00400abc       0x24
+ .text.SYS_Initialize
+                0x00400abc       0x24 build/RobotNetwork/production/_ext/2059666889/initialization.o
+                0x00400abc                SYS_Initialize
 
 .text.register_fini%16
                 0x00400ae0       0x14
